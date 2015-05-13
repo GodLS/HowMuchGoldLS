@@ -93,7 +93,7 @@ namespace HowMuchGold
 
             if (Config.Item("permaShow").GetValue<bool>())
             {
-                Drawing.DrawText(heropos.X, heropos.Y + 15, Color.White, total + " total gold can be received from minions in range");
+                Drawing.DrawText(heropos.X, heropos.Y + 15, Color.White, total + " total gold");
             }
 
             if (Config.Item("drawRange").GetValue<bool>())
